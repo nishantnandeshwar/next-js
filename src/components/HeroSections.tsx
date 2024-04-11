@@ -47,12 +47,7 @@ function HeroSections() {
                         Explore Courses
                     </Button>
                 </div>
-
             </div>
-
-
-
-
         </div>
     )
 }

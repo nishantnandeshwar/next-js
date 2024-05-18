@@ -1,14 +1,16 @@
 import FeatureCourses from "@/components/FeatureCourses";
 import HeroSections from "@/components/HeroSections";
 import InfiniteMovingCardsDemo from "@/components/InfiniteMovingCardsDemo";
-import Image from "next/image";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-      <HeroSections />
-      <FeatureCourses />
-      <InfiniteMovingCardsDemo />
-    </main>
+       <main className=" bg-black/[0.96] antialiased  min-h-screen flex-1" >  {/* min-h-screen bg-grid-white/[0.02] */}
+        <TracingBeam>
+        <HeroSections />
+        <FeatureCourses />
+        <InfiniteMovingCardsDemo />
+        </TracingBeam>
+      </main>
   );
 }

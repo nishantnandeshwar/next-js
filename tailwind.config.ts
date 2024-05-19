@@ -44,6 +44,9 @@ const config: Config = {
           },
         },
       },
+      padding: {
+        '9px': '9px',
+      },
     },
   },
   plugins: [addVariablesForColors, addSvgPatters],

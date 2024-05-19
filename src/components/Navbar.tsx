@@ -17,15 +17,6 @@ function Navbar({ className }: { className?: string }) {
                     <MenuItem setActive={setActive} active={active} item="My Projects">
                     </MenuItem>
                 </Link>
-                <MenuItem setActive={setActive} active={active} item="Our Courses">
-                    <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/courses">All Courses</HoveredLink>
-                        <HoveredLink href="/courses/music_theory">Basic Music Theory</HoveredLink>
-                        <HoveredLink href="/courses/advance_composition">Advance Composition</HoveredLink>
-                        <HoveredLink href="/courses">Song Writing</HoveredLink>
-                        <HoveredLink href="/courses">Music Production</HoveredLink>
-                    </div>
-                </MenuItem>
                 <Link href={"/contact"}>
                     <MenuItem setActive={setActive} active={active} item="Contact Us">
                     </MenuItem>
@@ -36,3 +27,19 @@ function Navbar({ className }: { className?: string }) {
 }
 
 export default Navbar
+
+
+
+
+
+
+
+{/* <MenuItem setActive={setActive} active={active} item="Our Courses">
+    <div className="flex flex-col space-y-4 text-sm">
+        <HoveredLink href="/courses">All Courses</HoveredLink>
+        <HoveredLink href="/courses/music_theory">Basic Music Theory</HoveredLink>
+        <HoveredLink href="/courses/advance_composition">Advance Composition</HoveredLink>
+        <HoveredLink href="/courses">Song Writing</HoveredLink>
+        <HoveredLink href="/courses">Music Production</HoveredLink>
+    </div>
+</MenuItem> */}

@@ -7,7 +7,7 @@ import { FlipWords } from "./ui/flip-words";
 const FooterComponent = () => {
     const words = ["Better.", "Cute.", "Beautiful.", "Modern."];
     return (
-        <footer className='flex justify-center items-center flex-col mt-6 border-t-2'>
+        <footer className='flex justify-center items-center flex-col border-t-2  m-7'>
             <div className="flex justify-center items-center bg-black gap-5 m-3">
                 <Image
                     src={mailImg}
@@ -32,8 +32,8 @@ const FooterComponent = () => {
                 />
             </div>
             <div className='text-center text-sm antialiased'>
-                This portfolio website create using Next.js and Tailwind CSS and use ui.aceternity to make<b><FlipWords words={words} /></b> <br />
-                <i> Design and Developed by </i> <b>Nishant Nandeshwar.</b>
+                <i> Design and Developed by </i> <b>Nishant Nandeshwar.</b><br />
+                This portfolio website create using Next.js and Tailwind CSS and use ui.aceternity to make<b><FlipWords words={words} /></b>
             </div>
         </footer>
     )

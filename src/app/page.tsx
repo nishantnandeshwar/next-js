@@ -7,12 +7,12 @@ import { HoverBorderGradientDemo } from "@/components/HoverBoard";
 export default function Home() {
   return (
     <main className="bg-black/[0.96] antialiased  min-h-screen" >  {/* min-h-screen bg-grid-white/[0.02] */}
-      <TracingBeam>
+      {/* <TracingBeam> */}
         <HeroSections />
-        <FeatureProjects />
+        {/* <FeatureProjects /> */}
         {/* <InfiniteMovingCardsDemo /> */}
         {/* <HoverBorderGradientDemo name="Change Theme"/> */}
-      </TracingBeam>
+      {/* </TracingBeam> */}
     </main>
   );
 }

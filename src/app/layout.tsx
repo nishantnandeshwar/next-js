@@ -23,9 +23,9 @@ export default function RootLayout({
         <div className="relative w-full flex item-center justify-center">
           <Navbar />
         </div>
-        <div className="absolute right-0 flex justify-end m-5 z-10">
+        {/* <div className="absolute right-0 flex justify-end m-5 z-10">
           <HoverBorderGradientButton name="Toggle Theme" />
-        </div>
+        </div> */}
         {children}
         <FooterComponent />
       </body>

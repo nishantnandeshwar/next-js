@@ -38,6 +38,7 @@ function AboutPage() {
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                 </div>
             </div> */}
+
             <div className="mt-[10rem]">
                 <div className="p-1 relative z-10 w-9/12 mx-auto text-3xl font-bold">About me :-</div>
                 <div className="p-4 relative z-10 w-full h-auto">
@@ -70,37 +71,39 @@ function AboutPage() {
                     </div>
                     <ol className="timeline-list">
                         <li className="timeline-item">
-                            <div className="font-semibold text-base md:text-lg text-neutral-300 ">Software developer at Define Labs, Pune (Remote)</div>
+                            <p className="font-semibold text-base md:text-lg text-neutral-300">
+                                Software developer at Define Labs, Pune (Remote)
+                            </p>
                             <span>Jan 2024 — Present</span>
-                            <p className="font-normal ext-sm md:text-sm text-neutral-300 mt-2 antialiased">
+                            <div className="font-normal text-sm md:text-sm text-neutral-300 mt-2 antialiased">
                                 <ul className="list-disc">
                                     <li>Developed a responsive and interactive android app using React native to provide multiple features.</li>
                                     <li>Collaborated closely with clients to gather requirements and ensure the software met their needs.</li>
                                     <li>Maintained high code quality through peer reviews and adherence to coding standards.</li>
                                 </ul>
-                            </p>
+                            </div>
                         </li>
                         <li className="timeline-item">
-                            <div className="font-semibold text-base md:text-lg text-neutral-300">Frontend developer at Cutedge Technology, Gurugram (On-location)</div>
+                            <p className="font-semibold text-base md:text-lg text-neutral-300">Frontend developer at Cutedge Technology, Gurugram (On-location)</p>
                             <span>Oct 2023 — Jan 2024</span>
-                            <p className="font-normal ext-sm md:text-sm text-neutral-300 mt-2 antialiased">
+                            <div className="font-normal ext-sm md:text-sm text-neutral-300 mt-2 antialiased">
                                 <ul className="list-disc">
                                     <li>To work on Web applications and Android and IOS applications with Cut Edge technology.</li>
                                     <li>Developed and maintained responsive and interactive web applications and Android-IOS applications using React JS and React Native.</li>
                                     <li>Collaborated with UX/UI designers to implement design concepts and ensure seamless user experiences.</li>
                                 </ul>
-                            </p>
+                            </div>
                         </li>
                         <li className="timeline-item">
                             <div className=" font-semibold text-base md:text-lg text-neutral-300">Front-end Developer and Team Lead</div>
                             <span>Apr 2021 — Oct 2023</span>
-                            <p className="font-normal text-sm md:text-sm text-neutral-300 mt-2 antialiased">
+                            <div className="font-normal text-sm md:text-sm text-neutral-300 mt-2 antialiased">
                                 <ul className="list-disc">
                                     <li>
                                         The privilege of participating in projects from their inception to completion, engaging closely with clients, and leading development teams as a team leader.
                                     </li>
                                 </ul>
-                            </p>
+                            </div>
                         </li>
                     </ol>
                 </section>
@@ -109,7 +112,6 @@ function AboutPage() {
             <section className="skill w-9/12 mx-auto">
                 <div className="p-2 relative z-10 mx-auto text-3xl font-bold">My skills:-</div>
                 <ul className="skills-list content-card">
-
                     <li className="skills-item">
                         <div className="title-wrapper">
                             <h5 className="h5">React JS</h5>
@@ -184,6 +186,7 @@ function AboutPage() {
                     </li>
                 </ul>
             </section>
+
         </div>
     )
 }

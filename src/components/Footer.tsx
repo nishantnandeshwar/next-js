@@ -39,7 +39,8 @@ const FooterComponent = () => {
                 </Link>
             </div>
             <div className='text-center text-sm antialiased'>
-                <i> Design and Developed by </i> <b>Nishant Nandeshwar.</b><br />
+                <span> Design and Developed by </span> <b>Nishant Nandeshwar.</b><br />
+                <strong>Contact: 8668776095, Mail: nishantnandeshwar8@gmail.com</strong>
                 {/* This portfolio website create using Next.js and Tailwind CSS and use ui.aceternity to make<b><FlipWords words={words} /></b> */}
             </div>
         </footer>

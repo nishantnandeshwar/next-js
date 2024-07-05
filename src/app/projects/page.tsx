@@ -9,10 +9,12 @@ My expertise lies in building and delivering high-quality software solutions tha
 `;
 const projectScreen = () => {
     return (
-        <main className="antialiased bg-black/[0.96] min-h-screen flex-1">
+        <main className="antialiased bg-black/[0.96] min-h-screen flex-1 mt-[4rem] ">
             <div className="pt-32 pb-32 mx-10">
-                <div>
+                <div className="flex flex-row justify-center">
+                    <div className="w-9/12">
                     <TextGenerateEffect words={words} />
+                    </div>
                 </div>
                 <div>
                     <TabsDemo />

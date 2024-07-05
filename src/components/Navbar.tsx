@@ -8,7 +8,7 @@ import { HoverBorderGradientDemo } from "./HoverBoard";
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     return (
-        <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+        <div className={cn("fixed top-10 inset-x-0 max-w-3xl mx-auto z-50", className)}>
             <Menu setActive={setActive}>
                 <Link href={"/"}>
                     <MenuItem setActive={setActive} active={active} item="About">
@@ -22,7 +22,6 @@ function Navbar({ className }: { className?: string }) {
                     <MenuItem setActive={setActive} active={active} item="Connect with me">
                     </MenuItem>
                 </Link>
-                <HoverBorderGradientDemo name="Explore projects" link="/projects" />
                 <HoverBorderGradientDemo name="Explore github" link="https://github.com/nishantnandeshwar" />
             </Menu>
         </div>

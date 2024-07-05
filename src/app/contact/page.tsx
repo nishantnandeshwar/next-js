@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image";
 import profileImg from '@/assets/image/profile_img.jpeg'
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import { HoverBorderGradientDemo } from "@/components/HoverBoard";
 function page() {
   return (
 
@@ -58,6 +59,9 @@ function page() {
             >
               Click here to View Github profile →
             </CardItem>
+          </div>
+          <div className="mt-10">
+            <HoverBorderGradientDemo name="Explore projects" link="/projects" />
           </div>
         </CardBody>
       </CardContainer>

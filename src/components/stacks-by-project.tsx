@@ -7,16 +7,6 @@ import Link from "next/link";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Next-JS",
-      value: "Next-JS",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>My portfolio</p>
-          <div className="text-base antialiased m-4">This portfolio website create using Next.js and Tailwind CSS and use ui.aceternity</div>
-        </div>
-      ),
-    },
-    {
       title: "React Native",
       value: "React Native",
       content: (
@@ -110,6 +100,16 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>React JS Project</p>
           <div className="text-base antialiased m-4"> Working In Progress, I will add the project soon...</div>
+        </div>
+      ),
+    },
+    {
+      title: "Next-JS",
+      value: "Next-JS",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>My portfolio</p>
+          <div className="text-base antialiased m-4">This portfolio website create using Next.js and Tailwind CSS and use ui.aceternity</div>
         </div>
       ),
     },

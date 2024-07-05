@@ -1,8 +1,8 @@
-// import Link from "next/link"
+import Link from "next/link"
 import { Spotlight } from "./ui/Spotlight"
-// import { SparklesCore } from "./ui/sparkles"
-// import { Button } from "./ui/moving-border";
-// import { HoverBorderGradientDemo } from "./HoverBoard";
+import { SparklesCore } from "./ui/sparkles"
+import { Button } from "./ui/moving-border";
+import { HoverBorderGradientDemo } from "./HoverBoard";
 import Image from 'next/image'
 import experienceIcon from '@/assets/image/experience.png'
 import '@/assets/css/style.css'
@@ -38,7 +38,7 @@ function AboutPage() {
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                 </div>
             </div> */}
-            {/* <div className="mt-[10rem]">
+            <div className="mt-[10rem]">
                 <div className="p-1 relative z-10 w-9/12 mx-auto text-3xl font-bold">About me :-</div>
                 <div className="p-4 relative z-10 w-full h-auto">
                     <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 w-9/12 mx-auto">
@@ -48,7 +48,7 @@ function AboutPage() {
                     </p>
                 </div>
 
-                <div className="p-2 relative z-10 w-9/12 mx-auto text-3xl font-bold">What I'm Doing :-</div>
+                <div className="p-2 relative z-10 w-9/12 mx-auto text-3xl font-bold">{`What I'm Doing :`}-</div>
                 <div className="p-4 relative z-10 w-full h-auto">
                     <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 w-9/12 mx-auto">
                         I design and create responsive website and mobile app using React JS and React Native framework.
@@ -104,9 +104,9 @@ function AboutPage() {
                         </li>
                     </ol>
                 </section>
-            </div> */}
+            </div>
 
-            {/* <section className="skill w-9/12 mx-auto">
+            <section className="skill w-9/12 mx-auto">
                 <div className="p-2 relative z-10 mx-auto text-3xl font-bold">My skills:-</div>
                 <ul className="skills-list content-card">
 
@@ -183,7 +183,7 @@ function AboutPage() {
                         </div>
                     </li>
                 </ul>
-            </section> */}
+            </section>
         </div>
     )
 }
